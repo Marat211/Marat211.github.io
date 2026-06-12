@@ -3,14 +3,14 @@ description: "A simple personal blog powered by Jekyll."
 url: "https://marat211.github.io"
 baseurl: ""
 
-minima:
-  nav_pages:
-    - abou.md
-    - portfolio.md
-
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  nav_pages:
+    - about me.md
+    - portfolio.md
 
 markdown: kramdown
 permalink: /:categories/:title/
