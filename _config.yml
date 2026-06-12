@@ -1,0 +1,22 @@
+title: "Marat211 Blog"
+description: "A simple personal blog powered by Jekyll."
+url: "https://marat211.github.io"
+baseurl: ""
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
