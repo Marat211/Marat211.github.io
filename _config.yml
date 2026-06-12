@@ -5,7 +5,7 @@ baseurl: ""
 
 minima:
   nav_pages:
-    - about.md
+    - abou.md
     - portfolio.md
 
 theme: minima
